@@ -1,7 +1,29 @@
 aid: monitaur
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/monitaur.png
 name: Monitaur
-description: Monitaur is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Monitaur is an enterprise AI governance platform that helps regulated
+  organizations manage machine learning and AI responsibly across the full model
+  lifecycle. Its software lets teams define enterprise-wide AI governance
+  policies, manage and monitor model performance for drift and bias, and
+  automate model validation, risk assessment, stress testing, and vendor
+  governance at scale. Monitaur is built for regulated industries such as
+  insurance and financial services, delivering audit-ready documentation and
+  compliance reporting. A Techstars-backed company, Monitaur has been recognized
+  as a Gartner Magic Quadrant Visionary and is SOC 2 Type II certified. The
+  company does not currently publish a public developer API, SDKs, or a developer
+  portal; this profile captures its identity and security posture.
 url: https://raw.githubusercontent.com/api-evangelist/monitaur/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Artificial Intelligence
+- AI Governance
+- Machine Learning
+- Compliance
+- Risk Management
+- Insurance
+- Model Monitoring
+- Responsible AI
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,20 @@ maintainers:
 common:
 - type: Website
   url: https://monitaur.ai/
+- type: Blog
+  url: https://monitaur.ai/blog
+- type: Support
+  url: https://monitaur.ai/contact
+- type: PrivacyPolicy
+  url: https://monitaur.ai/privacy-policy
+- type: TrustCenter
+  url: security/monitaur-trust-center.yml
+- type: Compliance
+  url: https://www.monitaur.ai/security
+- type: DomainSecurity
+  url: security/monitaur-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
